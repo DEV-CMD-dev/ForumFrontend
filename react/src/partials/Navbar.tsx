@@ -16,7 +16,7 @@ export default function Navbar() {
                 <Link to="/">
                     <button className="navbar-button">Login</button>
                 </Link>
-                <ThemeToggler />
+                <span><ThemeToggler /></span>
             </div>
         </div>
     )
